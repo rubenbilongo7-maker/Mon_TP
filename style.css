@@ -1,0 +1,39 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 70px;
+}
+
+.navbar-brand img{
+    height: 40px;
+    width: auto;
+}
+
+.nav-item .nav-link{
+    margin: 5px;
+}
+
+.section h2, h1{
+    font-weight: 700;
+}
+
+/* Animation de fade-in */
+.js .fade-section{
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.js .fade-section.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.card{
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
